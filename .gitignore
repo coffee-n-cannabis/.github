@@ -1,0 +1,26 @@
+# editor swap / backup
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# secrets / local env
+.env
+.env.local
+*.local
+
+# logs
+*.log
+
+# vendor / build artifacts
+node_modules/
+vendor/
+dist/
+build/
+
+# editor configs (kept local)
+.idea/
+.vscode/
